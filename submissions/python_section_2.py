@@ -66,8 +66,6 @@ def unroll_distance_matrix(df)->pd.DataFrame():
     return unrolled_df
 
 
-
-
 def find_ids_within_ten_percentage_threshold(df, reference_id)->pd.DataFrame():
     """
     Find all IDs whose average distance lies within 10% of the average distance of the reference ID.
